@@ -1,0 +1,8 @@
+Java 1.8
+
+The ActOnUtils.jar can be run from the cmd line like so...
+	java -jar ActOnUtils.jar <string>
+
+Or can be imported into a project by using the following statement, import ActOnUtils.*, and calling the static method PrintUniqueStringPermutations. In this form, it currently only accepts strings.
+
+I wouldnt recommend putting inputs larger than 11 chars as the function runs O(n!).
